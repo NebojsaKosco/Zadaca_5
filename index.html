@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 1</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<header>
+    <h2 class="head">Kontakt forma</h2>
+</header>
+
+<form action="form" class="form">
+    <div >
+
+        <div class="input-container">
+            <label for="name"> Ime</label><br>  
+        <input type="text" id="name" required placeholder="Unesite ime">
+    </div>
+    <div class="input-container">
+        <label for="vorname"> Prezime</label><br>  
+        <input type="text" id="vorname" required placeholder="Unesite prezime">
+    </div>
+    <div class="input-container">
+        <label for="contry">Drzava</label><br>
+        <select id="contry" name="contry" size="1">
+            <option value="drzava">BiH</option>
+            <option value="drzava">Srbija</option>
+            <option value="drzava">Hrvatska</option>
+            <option value="drzava">Slovenija</option>
+        </select>
+    </div>
+    <div class="input-container">
+        <label for="pol">Pol</label><br>
+        <input type="radio" id="pl" > Musko<br>
+        <input type="radio" id="pol" checked > Zensko
+    </div class="input-container">
+    
+        <div class="input-container">
+            <label for="about" >Opis</label><br>
+        <textarea name="aboutus" placeholder="Napisite nesto" id="about" cols="30" rows="10"></textarea>
+    </div>
+    <div class="input-container">
+        <label for="email"> Email adresa</label><br>  
+        <input type="email" id="email" required placeholder="Email adresa">
+    </div>
+
+    <div class="input-container">
+        <label for="accname">Korisnicko ime</label><br>  
+        <input type="text" id="accname" required placeholder="Korisnicko ime">
+    </div>
+    <div class="input-container">
+        <label for="lozinka">Lozinka</label><br>  
+        <input type="password" id="lozinka" required placeholder="Lozinka">
+    </div>
+    <div class="input-container">
+        
+        <input type="checkbox" id="checked" required> Prihvatam usloce koristenja!
+    </div>
+    
+</div>
+<div class="button">
+   <a href="#" class="btn">Posalji</a>
+</div>
+
+
+</form>
+    
+</body>
+</html>
